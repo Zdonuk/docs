@@ -26,44 +26,6 @@ description: Documentation about Base Mainnet and Base Testnet. This page covers
 | Chain ID                    | 84532                                                                                                                     |
 | Currency Symbol             | ETH                                                                                                                       |
 | Block Explorer              | [https://sepolia-explorer.base.org](https://sepolia-explorer.base.org)                                                    |
-## WebSocket connections
-
-For real-time data streaming and event subscriptions, you can use WebSocket endpoints:
-
-### Base Mainnet
-
-| Name | Value |
-|------|-------|
-| WebSocket Endpoint | `wss://mainnet.base.org` <br/>Rate limited and not for production systems. |
-
-### Base Testnet (Sepolia)
-
-| Name | Value |
-|------|-------|
-| WebSocket Endpoint | `wss://sepolia.base.org` <br/>Rate limited and not for production systems. |
-
-:::info
-WebSocket connections are useful when you need:
-- Real-time block updates
-- Event subscriptions (e.g., contract events, new transactions)
-- Pending transaction monitoring
-- Low-latency data feeds
-
-For production systems, consider using a [node provider](/base-chain/tools/node-providers) with dedicated WebSocket support.
-:::
-
-## Block explorers
-
-### Flashblocks
-
-[Flashblocks](https://www.flashblocks.xyz/) provides real-time visualization and analysis for Base blocks and transactions. It offers:
-
-- Live block and transaction streaming
-- Detailed transaction traces
-- MEV analysis and detection
-- Advanced filtering and search capabilities
-
-Flashblocks is particularly useful for developers building MEV-aware applications or analyzing on-chain activity in real-time.
 
 <Note>
 L1 & L2 protocol and network-related smart contract deployments can be found on the [Base Contracts](/base-chain/network-information/base-contracts) page.
